@@ -11,5 +11,6 @@
 @interface MASAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (class, strong, nonatomic) UIView *anotherView;
 
 @end
